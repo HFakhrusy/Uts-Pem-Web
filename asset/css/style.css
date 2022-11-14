@@ -1,0 +1,139 @@
+@import url(https:fonts.googleapis.com/css?family=poppins:400,500,600,700);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+.wrap{
+    background-image: url(../bg1.jpeg);
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    
+    }
+
+/* icon sosmed atas */
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0, 1);
+    transition: all 0.3s ease-out;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+   
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+    background: #2980b9;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+    background: #3498db;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #e74c3c;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #161b22;
+}
+
+.wrapper .button .icon{
+    font-size: 25px;
+    line-height: 60px;
+   
+}
+
+.wrapper .button:hover .icon{
+    color: #fff;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;}
+
+.wrapper .button:nth-child(1)span{
+    background: #2980b9;
+}
+
+.wrapper .button:nth-child(2)span{
+    background: #3498db;
+}
+.wrapper .button:nth-child(3)span{
+    background: #e74c3c;
+}
+.wrapper .button:nth-child(4)span{
+    background: #161b22;
+}
+/* Penutup icon sosmed */
+
+.btn{
+    animation: effect 0.4s infinite;
+    background: #b1b2ff;
+}
+/* efek button */
+@keyframes effect{
+    0%{
+        transform: translateX(0px) rotate(0deg);
+    }
+    20%{
+        transform: translateX(-4px) rotate(-4deg);
+    }
+    40%{
+        transform: translateX(-2px) rotate(-2deg);
+    }
+    60%{
+        transform: translateX(4px) rotate(4deg);
+    }
+    80%{
+        transform: translateX(2px) rotate(2deg);
+    }
+    100%{
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+/* penutup efek  button */
+
+footer{
+    background: #1f213c;
+}
+footer .container{
+    background-color: #1f213c;
+}
+a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+a:visited{
+    color: rgb(0, 55, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 13, 255);
+    text-decoration: none;
+}
+a:active{
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+}
